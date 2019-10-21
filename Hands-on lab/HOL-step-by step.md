@@ -43,27 +43,17 @@ Open Lab from http://bit.ly/2WCFDdz if you haven't registered for lab already.
  
    ![Image which shows how to drag the Azure Data Explorer Clusters to the top of Favorite Menu.](media/image21.png)
     
- 4. Select **Azure Database Explorer** from **Favorite** menu and select the pre-deployed **Kusto cluster**.
+ 4. Select **Azure Database Explorer** from **Favorite** menu and select the pre-deployed **SAADXWorkshop cluster**.
    
        ![Image for selecting Azure Database Cluster.](media/image22.png)
     
- 5. Select **Databases** from the left-hand menu, under **Data** , and then select **+Add Database** . 
+ 5. Select **Databases** from the left-hand menu, under **Data** , and then select **SAADXworkshop** . 
    
        ![Create a new database in the cluster.](media/image05.png)  
     
- 6. In the **Azure Data Explorer Database** window:  
-    
-       ![adding parameters to the database.](media/image06.png)
-    
-      - **Database name**: **<alias>_adxdb** 
-      - **Retention period** (cold compressed data (Azure Blob Storage) : **365**
-      - **Cache period**(hot compressed data (SSD)): **31**
- 
- 7. In **Databases**, select your new **alias_adxdb database** and Select **Query**
- 
-   ![writing Query fo the data ingestion section.](media/image07.png)
-   
- 8. In the Web UI, create a table 
+6. In **Databases**, select your **SAADXWorkshop** and Select **Query**
+
+8. In the Web UI, create a table 
   ```
   // Create a table
   .create table SampleTable
