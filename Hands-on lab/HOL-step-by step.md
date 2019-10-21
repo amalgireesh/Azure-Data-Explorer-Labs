@@ -9,14 +9,12 @@ Walk away with a solution for your frustrated customers, so they can make immedi
  <!-- TOC -->
 
 - Infrastructure 
-- Ingestion
-- Exploration
- - Questions 
- - KQL
- - Results
+- Pre-Exploration
+- Questions 
+- Stream Analytics
+- Post-Exploration
 - Self-Study   
   - Kusto Query Language (KQL)
-  - Questions to try out 
   - Power BI    
      - Connect to Help cluster  
      - Create Power BI report 
